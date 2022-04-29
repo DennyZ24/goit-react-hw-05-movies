@@ -1,0 +1,27 @@
+.header{
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+}
+
+.link{
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: #2a363b;
+  font-size: 18px;
+}
+
+.link:hover{
+  transform: scale(110%);
+}
+
+.activ {
+  color: #7700ff;
+}

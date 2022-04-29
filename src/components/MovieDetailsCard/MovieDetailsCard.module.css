@@ -1,0 +1,16 @@
+.cardWrapper {
+  display: flex;
+  align-items: center;
+
+}
+
+.cardImg {
+  margin-right: 20px;
+}
+
+.cardDiscriptional {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
