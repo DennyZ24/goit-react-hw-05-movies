@@ -8,8 +8,8 @@ export async function getTrandingMovie() {
   return response.data;
 };
 
-export async function getMovieById(id) {
-  const response = await axios.get(`movie/${id}?api_key=${KEY}`);
+export async function getMovieById(filmId) {
+  const response = await axios.get(`movie/${filmId}?api_key=${KEY}`);
   return response.data;
 };
 

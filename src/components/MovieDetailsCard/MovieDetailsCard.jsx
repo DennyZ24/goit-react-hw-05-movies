@@ -1,9 +1,11 @@
+import placeholder from 'placeholder/placeholder.png'
 import s from 'components/MovieDetailsCard/MovieDetailsCard.module.css'
+
 export default function MovieDetailsCard({ film }) {
   return (
     <div className={s.cardWrapper}>
       <div className={s.cardImg}>
-        <img src={`https://image.tmdb.org/t/p/original${film.poster_path}`} alt={film.title} width='300' height='400'/>
+        <img src={film.poster_path ? `https://image.tmdb.org/t/p/original${film.poster_path}` : placeholder} alt={film.title} width='300' height='400'/>
       </div>
 
       <div className={s.cardDiscriptional}>

@@ -16,7 +16,7 @@ export default function Reviews() {
       {reviews.length !== 0 &&
         <ul>
           {reviews.map(review =>
-            <li>
+            <li key={review.id}>
               <h4>Author: {review.author}</h4>
               <p>Comment: {review.content}</p>
           </li>)}
